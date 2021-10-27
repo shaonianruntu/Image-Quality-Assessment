@@ -1,0 +1,1 @@
+python main.py --path /home/fangnan/project/fangan_test/outputs/1013_195053_realtime_newdata_cycrec_5_rep/results/epoch300/split /data/fangnan/photostick/CUHK/test_new/style
