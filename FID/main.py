@@ -5,6 +5,7 @@ import os
 from fid_score import calculate_fid_given_paths
 from sifid_score import calculate_sifid_given_paths
 from cleanfid import fid as cleanfid
+import lpips
 
 parser = ArgumentParser(formatter_class=ArgumentDefaultsHelpFormatter)
 
@@ -56,8 +57,11 @@ if __name__ == '__main__':
 
     cleanfid_values = cleanfid.compute_fid(args.path[0], args.path[1])
 
+    lpips_value = lpips.LPIPS(net='alex').forward(args.path[0], args.path[1])
+
     print("=" * 80)
     print("FID Result:")
     print('FID: ', fid_value)
     print('SIFID: ', sifid_values)
     print('CLEAN FID: ', cleanfid_values)
+    print('LPIPS: ', lpips_value)
