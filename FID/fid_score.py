@@ -196,7 +196,7 @@ def _compute_statistics_of_path(path, model, batch_size, dims, cuda):
         f.close()
     else:
         path = pathlib.Path(path)
-        files = list(path.glob('*.jpg')) + list(path.glob('*.png'))
+        files = sorted(path.glob('*.jpg')) + sorted(path.glob('*.png'))
 
         imgs = np.array([
             imread(str(fn), as_gray=False, pilmode="RGB").astype(np.float32)

@@ -4,10 +4,10 @@
 
 Pytorch version of
 
-- [(FID) Fréchet inception distance](https://en.wikipedia.org/wiki/Fréchet_inception_distance)
-- [(SIFID) Single Image Fréchet Inception Distance](https://github.com/tamarott/SinGAN)
-- [(CleanFID) On Buggy Resizing Libraries and Surprising Subtleties in FID Calculation](https://github.com/GaParmar/clean-fid)
-- [(LPIPS) The Unreasonable Effectiveness of Deep Features as a Perceptual Metric](https://github.com/richzhang/PerceptualSimilarity)
+- [(FID) Fréchet inception distance](https://en.wikipedia.org/wiki/Fréchet_inception_distance): smaller is better
+- [(SIFID) Single Image Fréchet Inception Distance](https://github.com/tamarott/SinGAN): smaller is better
+- [(CleanFID) On Buggy Resizing Libraries and Surprising Subtleties in FID Calculation](https://github.com/GaParmar/clean-fid): smaller is better
+- [(LPIPS) Learned Perceptual Image Patch Similarity](https://github.com/richzhang/PerceptualSimilarity): smaller is better
 
 ## IQA
 

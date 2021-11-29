@@ -226,9 +226,9 @@ def calculate_sifid_given_paths(paths, batch_size, cuda, dims):
         model.cuda()
 
     path1 = pathlib.Path(paths[0])
-    files1 = list(path1.glob('*.jpg'))
+    files1 = sorted(path1.glob('*.jpg'))
     path2 = pathlib.Path(paths[1])
-    files2 = list(path2.glob('*.jpg'))
+    files2 = sorted(path2.glob('*.jpg'))
 
     sifid_values = []
     Im_ind = []
