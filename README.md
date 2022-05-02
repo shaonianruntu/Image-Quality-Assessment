@@ -25,10 +25,6 @@ Matlab version of
 
 - NLDA（Null-space Linear Discriminant Analysis）[8]
 
-## Model Parameters and FLOPs
-
-https://github.com/Lyken17/pytorch-OpCounter
-
 ---
 
 [1] Heusel M, Ramsauer H, Unterthiner T, et al. Gans trained by a two time-scale update rule converge to a local nash equilibrium[J]. Advances in neural information processing systems, 2017, 30.
